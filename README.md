@@ -186,17 +186,7 @@ Volatility measures how much the NAV fluctuated over time. A higher volatility m
 
 ---
 
-### 4. Maximum Drawdown Comparison
-
-Maximum drawdown shows the largest fall from a previous peak NAV.
-
-This metric helps understand downside risk during weak market periods.
-
-![Maximum Drawdown Comparison](images/drawdown_comparison.png)
-
----
-
-### 5. SIP Simulation Result
+### 4. SIP Simulation Result
 
 This chart shows the result of a simulated monthly SIP investment.
 
@@ -214,16 +204,11 @@ The analysis generates a summary report containing important fund-level metrics.
 |---|---|
 | Total Return Percentage | Overall growth from first NAV to latest NAV |
 | Annualized Volatility | Yearly risk level based on daily return fluctuations |
-| Maximum Drawdown | Largest percentage fall from a previous peak |
 | SIP Invested Amount | Total amount invested through monthly SIP |
 | SIP Current Value | Final value of accumulated SIP units |
 | SIP Return Percentage | Return generated through SIP investment |
 
 The summary metrics are saved in:
-
-```text
-reports/summary_metrics.csv
-```
 ---
 
 ## Business Relevance
