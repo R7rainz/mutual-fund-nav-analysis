@@ -150,6 +150,82 @@ All generated charts are saved inside the `images/` directory.
 
 ---
 
+## Results and Visual Analysis
+
+This section shows the main outputs generated from the mutual fund performance analysis.
+
+---
+
+### 1. NAV Trend Comparison
+
+The NAV trend chart compares how the selected Nifty 50 index mutual funds moved over time.
+
+Since all selected funds track the Nifty 50 index, their NAV movement is expected to be broadly similar.
+
+![NAV Trend Comparison](images/nav_trend.png)
+
+---
+
+### 2. Total Return Comparison
+
+This chart compares the total return percentage of each selected mutual fund during the analysis period.
+
+Total return was calculated using the first available NAV and the latest available NAV.
+
+![Returns Comparison](images/returns_comparison.png)
+
+---
+
+### 3. Volatility Comparison
+
+This chart compares the annualized volatility of each fund.
+
+Volatility measures how much the NAV fluctuated over time. A higher volatility means larger NAV movement, while lower volatility indicates relatively more stable performance.
+
+![Volatility Comparison](images/volatility_comparison.png)
+
+---
+
+### 4. Maximum Drawdown Comparison
+
+Maximum drawdown shows the largest fall from a previous peak NAV.
+
+This metric helps understand downside risk during weak market periods.
+
+![Maximum Drawdown Comparison](images/drawdown_comparison.png)
+
+---
+
+### 5. SIP Simulation Result
+
+This chart shows the result of a simulated monthly SIP investment.
+
+The simulation assumes a fixed monthly investment amount and calculates the final investment value using accumulated units and the latest NAV.
+
+![SIP Simulation](images/sip_simulation.png)
+
+---
+
+## Summary Metrics
+
+The analysis generates a summary report containing important fund-level metrics.
+
+| Metric | Meaning |
+|---|---|
+| Total Return Percentage | Overall growth from first NAV to latest NAV |
+| Annualized Volatility | Yearly risk level based on daily return fluctuations |
+| Maximum Drawdown | Largest percentage fall from a previous peak |
+| SIP Invested Amount | Total amount invested through monthly SIP |
+| SIP Current Value | Final value of accumulated SIP units |
+| SIP Return Percentage | Return generated through SIP investment |
+
+The summary metrics are saved in:
+
+```text
+reports/summary_metrics.csv
+```
+---
+
 ## Business Relevance
 
 This project is useful for fintech and investment platforms because it helps answer important user-facing questions such as:
