@@ -1,0 +1,8 @@
+what this project answers ?
+
+1. Which mutual fund had the highest return?
+2. Which fund was most volatile?
+3. Which fund had the worst drawdown?
+4. How did NAV move over time?
+5. What would happen with a monthly SIP?
+6. Which fund looks more stable?
